@@ -1,5 +1,6 @@
 return {
   { "DDTully/comment-box.nvim" },
+
   { "mbbill/undotree" },
   {
     "hedyhli/outline.nvim",
