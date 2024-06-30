@@ -1,8 +1,8 @@
 {
   "extras": [
+    "lazyvim.plugins.extras.editor.outline",
     "lazyvim.plugins.extras.formatting.black",
-    "lazyvim.plugins.extras.lang.python",
-    "lazyvim.plugins.extras.lsp.none-ls"
+    "lazyvim.plugins.extras.lang.python"
   ],
   "news": {
     "NEWS.md": "6077"
