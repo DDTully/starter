@@ -1,16 +1,4 @@
 return {
-  -- {
-  --   "williamboman/mason.nvim",
-  --   opts = function(_, opts)
-  --     vim.list_extend(opts.ensure_installed, {
-  --       "stylua",
-  --       "lua-language-server",
-  --       "powershell-editor-services",
-  --       "prettier",
-  --       "pyright",
-  --     })
-  --   end,
-  -- },
   "neovim/nvim-lspconfig",
   dependencies = {
     "williamboman/mason.nvim",
