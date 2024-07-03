@@ -3,16 +3,6 @@ return {
   { "Mofiqul/vscode.nvim" },
   { "mbbill/undotree" },
   {
-    "folke/tokyonight.nvim",
-    opts = {
-      style = "night",
-      transparent = true,
-      styles = {
-        sidebars = "transparent",
-      },
-    },
-  },
-  {
     "iamcco/markdown-preview.nvim",
     cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
     ft = { "markdown" },

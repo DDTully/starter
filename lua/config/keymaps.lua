@@ -10,3 +10,4 @@ vim.keymap.set("n", "q", "<nop>")
 vim.keymap.set({ "n", "v" }, "<leader>cb", "<cmd>CBccbox<cr>") -- Box
 vim.keymap.set({ "n", "v" }, "<leader>cr", "<cmd>CBd<cr>") -- Delete, remove
 vim.keymap.set("n", "<leader>f/", "<cmd>Telescope current_buffer_fuzzy_find<cr>")
+vim.keymap.set("n", "<C-a>", "ggVG")
