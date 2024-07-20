@@ -28,7 +28,7 @@ pwsh -command Install-Module PSScriptAnalyzer -force
 
 # Install Nerdfont
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/DroidSansMono.zip
-unzip DroidSansMono.zip -d ~/.fonts/
+unzip -o DroidSansMono.zip -d ~/.fonts/
 fc-cache -fv
 rm DroidSansMono.zip
 
