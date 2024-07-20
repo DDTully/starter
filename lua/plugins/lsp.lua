@@ -9,6 +9,7 @@ return {
         "powershell-editor-services",
         "prettier",
         "pyright",
+        "gopls",
       })
     end,
   },
